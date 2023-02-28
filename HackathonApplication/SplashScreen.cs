@@ -5,14 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HackathonApplication
 {
-    public partial class Form1 : Form
+    public partial class SplashScreen : Form
     {
-        public Form1()
+        public SplashScreen()
         {
             InitializeComponent();
         }
